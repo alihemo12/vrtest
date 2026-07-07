@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Site</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Test Site</h1>
+  <p class="subtitle">A minimal page for checking things work</p>
+</header>
+
+<div class="grid">
+  <div class="card">
+    <h2>Layout</h2>
+    <p>Responsive grid that reflows on smaller screens using auto-fit.</p>
+  </div>
+  <div class="card">
+    <h2>Styling</h2>
+    <p>Dark theme with CSS variables so colors are easy to tweak.</p>
+  </div>
+  <div class="card">
+    <h2>Interactivity</h2>
+    <p>A simple counter below to confirm JavaScript is running.</p>
+  </div>
+</div>
+
+<button onclick="increment()">Click me</button>
+<div id="counter-display">Clicked 0 times</div>
+
+<script src="script.js"></script>
+</body>
+</html>
